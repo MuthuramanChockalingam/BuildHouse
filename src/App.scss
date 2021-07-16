@@ -1,4 +1,26 @@
 .App {
 	text-align: center;
+}
 
+.container {
+	position: absolute;
+	height: 500px;
+	width: 500px;
+	top: calc(50% - 250px);
+	left: calc(50% - 250px);
+	border: 1px solid blue;
+}
+
+.task {
+	height: 80%;
+	width: 80%;
+	border: 1px solid black;
+}
+
+.task-name {
+	font-weight: bold;
+}
+
+.total-cost {
+	font-weight: bold;
 }
